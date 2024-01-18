@@ -1,0 +1,21 @@
+.welcome-section{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background: url("../../../assets/images/hero_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    p{
+        font-size: 1.8rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h3{
+        font-size: 4.8rem;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,33 @@
+.our-products {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .section-header {
+        text-align: center;
+    }
+    .card {
+        background: #f8f9fb;
+        border-radius: 0;
+        border: none;
+        overflow: visible;
+        img {
+            margin-top: -30px;
+            object-fit: contain;
+        }
+        .card-body {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+            h5 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 1.1rem;
+                color: #828282;
+            }
+        }
+    }
+}

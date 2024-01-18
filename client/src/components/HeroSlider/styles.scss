@@ -1,0 +1,70 @@
+#app {
+    height: 100%;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family:
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    height: 100vh;
+    margin-top: -80px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 50;
+    }
+    .slider-content {
+        z-index: 100;
+        position: relative;
+        color: #eee;
+        margin-top: 80px;
+        span{
+            font-size: 1.8rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h2 {
+            font-size: 4.8rem;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
